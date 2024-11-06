@@ -6,4 +6,7 @@ interface ApiService {
 
     @GET("posts")
     fun getPostsList()
+
+    @GET("createuser")
+    fun createUser()
 }
