@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/addIcon"
+        app:showAsAction="always"
+        android:icon="@drawable/add_icon"
+        android:title="Add Icon" />
+
+    <item
+        android:id="@+id/addAccount"
+        app:showAsAction="always"
+        android:icon="@drawable/account_icon"
+        android:title="My Account" />
+    <item
+        android:id="@+id/addLocation"
+        android:icon="@drawable/add_location"
+        android:title="Add Location" />
+    <item
+        android:id="@+id/addTask"
+        android:icon="@drawable/add_task"
+        android:title="Add Task" />
+</menu>
